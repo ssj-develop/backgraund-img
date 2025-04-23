@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #000;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    padding: 15px 30px;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: yellow;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .language-label {
+    color: white;
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .play-now {
+    background-color: #f7b500;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .play-now:hover {
+    background-color: #ffcc00;
+  }
+  
+  .hero {
+    height: 90vh;
+    background: url("image\ 5.png") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .platform-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .pc, .console {
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .pc {
+    background-color: #f7b500;
+    color: black;
+  }
+  
+  .console {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  .title-box {
+    background-color: rgba(255, 186, 0, 0.75);
+    padding: 20px 40px;
+    margin-top: 10px;
+  }
+  
+  .title-box h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  
